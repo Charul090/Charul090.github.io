@@ -26,7 +26,8 @@
 
 .profile{
     width:150px;
-    height:150px;    
+    height:150px;
+    border-radius: 50%;   
 }
 
 .profile > img{
@@ -96,6 +97,9 @@ i.fas{
 }
 
 /********Section-2*************/
+#section-2{
+    margin:60px 0px;
+}
 
 .proficiencies{
     text-align: center;
@@ -109,6 +113,14 @@ i.fas{
 .stick-img{
     width:100%;   
 }
+
+/************Section-3*********/
+
+#section-3{
+    background-color: #FECD55;
+    padding:30px 0px;
+}
+/***************Media-queries**********/
 
 @media screen and (max-width:1024px){
     .contact-container{
