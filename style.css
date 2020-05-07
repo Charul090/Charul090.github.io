@@ -120,6 +120,32 @@ i.fas{
     background-color: #FECD55;
     padding:30px 0px;
 }
+
+/****************Section-4***********/
+
+#section-4{
+    padding:60px 10px;
+}
+
+.calendar-container{
+    width:80%;
+    margin:0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendar{
+    width:90%;
+    border:1px solid #E0E0E0;
+    border-radius: 6px;
+    padding:20px;
+}
+
+.cal-img{
+    width:100%;
+}
+
 /***************Media-queries**********/
 
 @media screen and (max-width:1024px){
