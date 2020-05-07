@@ -128,8 +128,8 @@ i.fas{
 }
 
 .calendar-container{
-    width:80%;
-    margin:0 auto;
+    width:90%;
+    margin:10px auto;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -146,6 +146,26 @@ i.fas{
     width:100%;
 }
 
+.progress-bar-container{
+    margin:40px auto;
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+}
+
+.radical-bar{
+    width:20%;
+}
+
+.hours{
+    font-size: 42px;
+    color:#707070
+}
+
+.hours-2{
+    font-size: 24px;
+    color:#9B9B9B;
+}
 /***************Media-queries**********/
 
 @media screen and (max-width:1024px){
