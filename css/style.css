@@ -37,6 +37,11 @@
     border:3px solid #FFC831;
 }
 
+.resume{
+    width:20%;
+    margin:0px auto;
+}
+
 /******Info********/
 
 
@@ -218,6 +223,10 @@ i.fab{
 
 @media screen and (max-width:768px){
 
+    .resume{
+        width:30%;
+    }
+
     .profile-container{
         width:150px;
     }
@@ -299,6 +308,11 @@ i.fab{
 }
 
 @media screen and (max-width:540px){
+
+    .resume{
+        width:60%;
+    }
+
     .profile-container{
         width:120px;
     }
@@ -375,5 +389,9 @@ i.fab{
     .hours-2{
         font-size: 19px;
         color:#9B9B9B;
+    }
+
+    .calendar-container{
+        display: none;
     }
 }
