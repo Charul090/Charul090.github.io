@@ -38,7 +38,7 @@
 }
 
 .resume{
-    width:20%;
+    width:15%;
     margin:0px auto;
 }
 
@@ -82,7 +82,7 @@ i.fas{
 
 .contact-text{
     font-family:'Open Sans', sans-serif;
-    color:#A8A8A8;
+    color:#949494;
 }
 
 i.code{
@@ -121,7 +121,7 @@ i.fab{
 }
 
 .summary > p{
-    color:#A8A8A8;
+    color:#949494;
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
 }
@@ -156,7 +156,59 @@ i.fab{
 
 #section-3{
     background-color: #FECD55;
-    padding:30px 0px;
+    padding:30px 30px;
+}
+
+.card-body-text{
+    color:#4D4D4D;
+}
+
+.link-footer{
+    color:black;
+}
+
+.link-footer:hover{
+    color:rgb(255, 123, 0);
+}
+
+.line{
+    margin: 0px;
+    padding: 0px;
+    border-top: 10px solid #7F4E00;
+}
+
+.img-header{
+    background-image: url("../resources/Jobss_portal.png");
+    height:150px;
+    background-size: cover;
+}
+
+.card-radius{
+    border-radius: 12px 12px;
+}
+
+.html5{
+    color:#e34c26 !important;
+}
+
+.bootstrap{
+    color: #563d7c !important;
+}
+
+.react{
+    color:#61DBFB !important;
+}
+
+.js{
+    color: #FFC831 !important;
+}
+
+.card{
+    transition: 0.25s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
 }
 
 /****************Section-4***********/
@@ -208,6 +260,10 @@ i.fab{
 
 @media screen and (max-width:1024px){
 
+    #section-3{
+        padding:30px 60px;
+    }
+
     .socialz{
         width:30%;
     }
@@ -222,6 +278,10 @@ i.fab{
 }
 
 @media screen and (max-width:768px){
+
+    #section-3{
+        padding:30px 10px;
+    }
 
     .resume{
         width:30%;
@@ -308,6 +368,10 @@ i.fab{
 }
 
 @media screen and (max-width:540px){
+
+    #section-3{
+        padding: 30px 0px;
+    }
 
     .resume{
         width:60%;
