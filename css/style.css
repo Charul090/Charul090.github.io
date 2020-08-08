@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
 #section-1{
     margin:0px;
     padding:10px 0px;
@@ -159,6 +161,13 @@ i.fab{
     padding:30px 30px;
 }
 
+.project{
+    text-align: center;
+    font-family: 'Pangolin', cursive;
+    font-size: 51px;
+    text-decoration: underline;
+}
+
 .card-body-text{
     color:#4D4D4D;
 }
@@ -187,6 +196,10 @@ i.fab{
     border-radius: 12px 12px;
 }
 
+.card-img-top{
+    height:200px !important;
+}
+
 .html5{
     color:#e34c26 !important;
 }
@@ -199,12 +212,19 @@ i.fab{
     color:#61DBFB !important;
 }
 
-.js{
+.js,
+.python{
     color: #FFC831 !important;
+}
+
+.mysql{
+    font-size: 20px;
+    color:#0D47A1 !important;
 }
 
 .card{
     transition: 0.25s ease;
+    height:474px !important;
 }
 
 .card:hover{
@@ -343,6 +363,10 @@ i.fab{
     .proficiencies{
         font-size: 33px;
     }
+
+    .card-text{
+        font-size: 15px;
+    }
     
     /*****/
     
@@ -377,6 +401,9 @@ i.fab{
         width:60%;
     }
 
+    .card-text{
+        font-size: 0.95rem;
+    }
     .profile-container{
         width:120px;
     }
